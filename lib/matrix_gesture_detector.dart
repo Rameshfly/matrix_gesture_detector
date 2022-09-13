@@ -152,7 +152,7 @@ class _MatrixGestureDetectorState extends State<MatrixGestureDetector> {
     rotationUpdater.value = 0.0;
   }
     
-  void onScaleEnd(ScaleStartDetails details) {
+  void onScaleEnd(ScaleEndDetails details) {
     widget.onScaleEnd();
   }
   
